@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Club</title>
+    <link rel="icon" type="image/x-icon" href="\img\ball.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <span class="logospan">Sp</span> <img src="img/ball.png" alt="logo" id="logo"> <span
+                class="logospan">rtsClub</span>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Sports</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+    <div class="inputdata">
+        <fieldset>
+            <legend>Register Here</legend> 
+            <h2>Join the best Sports Club Now</h2>
+            <form action="onlyfrontend.php">
+                <div class="allinputs">
+
+                    <input type="text" placeholder="Enter Your Name" required> <br>
+                    <input type="email" placeholder="Enter Your Email" required> <br>
+                    <input type="text" placeholder="Enter Your Number" maxlength="10" required> <br>
+
+                    <select name="gender" id="" required>
+                        <option value="ind"> Select Gender</option>
+                        <option value="swf"> Male</option>
+                        <option value="swf"> Female</option>
+                        <option value="tes"> Other</option>
+                    </select>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+    </div>
+    </fieldset>
+</body>
+
+</html>
